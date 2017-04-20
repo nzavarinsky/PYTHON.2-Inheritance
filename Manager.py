@@ -6,7 +6,6 @@ from src.RailwayTransport.SearchWagons import SearchWagonsByNumOfPass
 from src.RailwayTransport.FreightTrain import FreightTrain
 from src.RailwayTransport.Locomotive import Locomotive
 
-
 class Manager:
     def createLocomotive(self):
         locomotive = Locomotive("Diesel")
